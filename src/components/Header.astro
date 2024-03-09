@@ -1,7 +1,8 @@
 ---
 import HeaderLink from '@/components/HeaderLink'
-import TwitterIcon from '@/components/icons/TwitterIcon'
-import GithubIcon from '@/components/icons/GithubIcon'
+import MastodonIcon from '@/components/icons/MastodonIcon'
+import InstagramIcon from '@/components/icons/InstagramIcon'
+import LastfmIcon from '@/components/icons/LastfmIcon'
 import MenuIcon from './icons/MenuIcon.astro'
 import Search from '@/components/Search'
 import TagIcon from './icons/TagIcon.astro'
@@ -10,15 +11,19 @@ import ToggleTheme from './ToggleTheme.astro'
 // ADD YOUR SOCIAL NETWORKS HERE
 const SOCIALNETWORKS = [
 	{
-		name: 'Github',
-		url: 'https://github.com/danielcgilibert/blog-template',
-		icon: GithubIcon
+		name: 'Mastodon',
+		url: 'https://mastodon.social/@underactive',
+		icon: MastodonIcon
 	},
-
 	{
-		name: 'Twitter',
-		url: 'https://github.com/danielcgilibert/blog-template',
-		icon: TwitterIcon
+		name: 'Instagram',
+		url: 'https://instagram.com/underactive',
+		icon: InstagramIcon
+	},
+	{
+		name: 'Last.fm',
+		url: 'https://www.last.fm/user/underactive',
+		icon: LastfmIcon
 	}
 ]
 ---
